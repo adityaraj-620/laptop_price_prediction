@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Laptop Price Predictor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Laptop Price Predictor 💻</h1>
+        <form id="predictForm">
+            <label for="brand">Brand:</label>
+            <input type="text" id="brand" name="brand" required>
+
+            <label for="processor">Processor:</label>
+            <input type="text" id="processor" name="processor" required>
+
+            <label for="ram">RAM (GB):</label>
+            <input type="number" id="ram" name="ram" required>
+
+            <label for="storage">Storage (GB):</label>
+            <input type="number" id="storage" name="storage" required>
+
+            <label for="gpu">Graphics Card:</label>
+            <input type="text" id="gpu" name="gpu" required>
+
+            <label for="os">Operating System:</label>
+            <input type="text" id="os" name="os" required>
+
+            <button type="submit">Predict Price</button>
+        </form>
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
